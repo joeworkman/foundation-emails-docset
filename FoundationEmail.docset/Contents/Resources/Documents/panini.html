@@ -1,0 +1,599 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A flat file compiler that powers our prototyping template. Create pages with consistent layouts and reusable partials with ease.">
+    <link rel="icon" href="assets/img/icons/favicon.ico" type="image/x-icon">
+    <title>Foundation for Emails 2 Docs | Panini</title>
+    <link href="assets/css/docs.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css" /> -->
+  </head>
+  <body class="docs-emails">
+
+    <div class="off-canvas-wrapper"><div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="mobile-ofc vertical menu">
+          
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li> 
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>  
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/sort/unanswered">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://zurb.com/ink/docs.php" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      </div>
+      
+      <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Emails</a></li>
+        </ul>
+      </div>
+      
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <!-- Info Banner For Announcements or Links -->
+      <!-- <a href="http://zurb.com/article/1416/foundation-6-is-here" id="notice">
+        <div class="info">
+          <h5>Foundation 6 is here!</h5>
+        </div>
+      </a> -->
+
+      <nav class="marketing-topbar show-for-medium">
+      
+        <ul class="menu">
+          <li class="topbar-title"><a href="http://foundation.zurb.com/index.html"><img src="http://foundation.zurb.com/assets/img/zurb-logo.svg" alt="ZURB"> Foundation</a></li>
+        </ul>
+      
+        <ul class="dropdown menu" data-dropdown-menu data-click-open="false">
+      
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li>
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://foundation.zurb.com/emails/docs" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/emails/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      
+      </nav>
+      
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+          <span class="title-bar-title">Foundation</span>
+        </div>
+      </div>
+      
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="mobile-ofc vertical menu">
+          
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li> 
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>  
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/sort/unanswered">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://zurb.com/ink/docs.php" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      </div>
+      
+      <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+      </div>
+      
+
+      <input type="text" class="docs-search" data-docs-search placeholder="Find a page, component, variable, mixin, function...">
+
+      <div class="expanded row">
+        <div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+<!-- body include must be left aligned for proper indentation of docs code examples -->
+
+<article class="docs-component" id="docs-panini">
+
+<!--<a href="#docs-menu" class="small secondary button expanded hide-for-medium mobile-nav-button">Jump to Nav</a>-->
+
+<!--
+<header>
+  <h1 class="docs-page-title">Panini</h1>
+
+    <span data-tooltip title="This is an external library." class="docs-lib label"><a href="https://github.com/zurb/panini" target="_blank">Library</a></span>
+
+  <p class="lead docs-page-lead">A flat file compiler that powers our prototyping template. Create pages with consistent layouts and reusable partials with ease.</p>
+
+  <ul class="menu simple docs-contribute-menu">
+    <li><a href="https://github.com/zurb/foundation-emails/edit/develop/docs/pages/panini.md" target="_blank"><i class="fi-pencil"></i>Edit this Page</a></li>
+    <li><a href="https://github.com/zurb/panini/issues" target="_blank"><i class="fi-social-github"></i>Report a Bug</a></li>
+    <li><a href="http://foundation.zurb.com/forum" target="_blank"><i class="fi-comment"></i>Get Help</a></li>
+  </ul>
+</header>
+-->
+
+
+<div class="row">
+
+<div class="large-9 columns docs-component-inner" id="docs">
+
+<p></p>
+<p>If you&#39;ve ever created a static site, maybe you had five pages that all shared the same header and footer. You create your first page, and then copy and paste the common elements to the next page. But now if you need to make a change to the header, the change has to be made across multiple files. You can do this with Emails in your campaigns too!</p>
+<p>Panini is a flat file compiler that uses the concepts of templates, pages, and partials&mdash;powered by the <a href="http://handlebarsjs.com/">Handlebars</a> templating language&mdash;to streamline the process of creating static prototypes.</p>
+<p>Our <a href="https://github.com/zurb/foundation-emails-template">prototyping template</a> uses Panini, along with a host of other tools for processing Sass and images, to make creating optimized templates easy. It&#39;s already been configured to utilize all of the features below, but if you want to learn the specifics of how to configure the library, head over to the <a href="https://github.com/zurb/panini">Panini GitHub page</a>.</p>
+<hr>
+<h2 id="basics-templates-pages" class="docs-heading" data-magellan-target="basics-templates-pages">Basics: Templates &amp; Pages<a class="docs-heading-icon" href="#basics-templates-pages"></a></h2><p>A <strong>template</strong> is a common layout that every page in your design shares. It&#39;s possible to have multiple templates, but generally you&#39;ll only need one, and a page can only use one template. In the prototyping template, the default layout is found under <code>src/layouts/default.html</code>.</p>
+<p>Here&#39;s what a basic template might look like:</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Definitely an Email!<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">header</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"header"</span>&gt;</span><span class="hljs-comment">&lt;!-- ... --&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+    </span><span class="hljs-template-variable">{{&gt; body}}</span><span class="xml">
+    <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer"</span>&gt;</span><span class="hljs-comment">&lt;!-- ... --&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></span></code></pre></div><p>In the middle of the HTML is a bit of Handlebars code: <code>{{&gt; body}}</code>. This is where the pages you write are injected when Panini runs, giving you a series of complete HTML files at the end.</p>
+<p>The <strong>pages</strong> make up the guts of your layouts. These files will just have the middle section of the design, since the layout already covers the top and bottom. The prototyping template includes one blank page to get you started, under <code>src/pages/index.html</code>.</p>
+<p>A basic page might look like this:</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Page Title<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ducimus eligendi, reiciendis corporis quam facere quaerat qui, aspernatur molestiae velit, vero ea quisquam laborum corrupti repudiandae totam, at aliquam esse.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div><p>Note that there&#39;s no <code>&lt;html&gt;</code> or <code>&lt;body&gt;</code> tags, and no header or footer. This code will be injected into the <code>{{&gt; body}}</code> declaration when Panini assembles your pages.</p>
+<p>In the prototyping template, these finished files are compiled into a standalone folder called <code>dist</code> (short for &quot;distribution&quot;), which also includes your processed CSS, JavaScript, and images. This folder can easily be uploaded to any ESP (Email Service Provider).</p>
+<hr>
+<h2 id="partials" class="docs-heading" data-magellan-target="partials">Partials<a class="docs-heading-icon" href="#partials"></a></h2><p>Partials are a feature of Handlebars which allow you to inject HTML anywhere in a page or layout. They&#39;re really useful when you need to repeat certain chunks of code throughout your pages, or to keep individual files from getting too cluttered with HTML.</p>
+<p>Here&#39;s an example of a layout file that divides its key sections into partials:</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Definitely STILL an Email!<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    </span><span class="hljs-template-variable">{{&gt; header}}</span><span class="xml">
+    </span><span class="hljs-template-variable">{{&gt; body}}</span><span class="xml">
+    </span><span class="hljs-template-variable">{{&gt; footer}}</span><span class="xml">
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></span></code></pre></div><p>The <code>{{&gt; }}</code> syntax tells Handlebars to look for an HTML file with that name, and inject it at that place. In this example, we have files called <code>header.html</code>, <code>navigation.html</code>, and <code>footer.html</code>. In the prototyping template, these files all exist within <code>src/partials</code>.</p>
+<hr>
+<h2 id="page-variables" class="docs-heading" data-magellan-target="page-variables">Page Variables<a class="docs-heading-icon" href="#page-variables"></a></h2><p>Pages have a few built-in variables, which can be used within the page template itself, or within a layout or partial being used in tandem with the page.</p>
+<h3 id="page" class="docs-heading">page<a class="docs-heading-icon" href="#page"></a></h3><p>Prints the name of the current page, without its original file extension. In the below example, if the page is <code>index.html</code>, <code>{{page}}</code> will become <code>index</code>.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>You are here: </span><span class="hljs-template-variable">{{page}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span></code></pre></div><h3 id="root" class="docs-heading">root<a class="docs-heading-icon" href="#root"></a></h3><p>Use <code>{{root}}</code> before a file path to make sure it works no matter what folder the current page is in.</p>
+<p>For example, a path to an external CSS file will need to be different if the current page is at the root level of your site, or in a sub-folder.</p>
+<p>Here&#39;s how you&#39;d use it with a <code>&lt;link&gt;</code> tag:</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{root}}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">assets/css/app.css"</span>&gt;</span></span></code></pre></div><p>If the page is <code>index.html</code>, the path will look like this:</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"assets/css/app.css"</span>&gt;</span></code></pre></div><p>If the page is <code>folder/page.html</code>, the path will look like this:</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"../assets/css/app.css"</span>&gt;</span></code></pre></div><p>The <code>../</code> is added only on pages in a sub-folder, so the CSS can still be properly loaded.</p>
+<hr>
+<h2 id="helpers" class="docs-heading" data-magellan-target="helpers">Helpers<a class="docs-heading-icon" href="#helpers"></a></h2><p>Helpers are special functions that manipulate content on the page. In addition to <a href="http://handlebarsjs.com/builtin_helpers.html">Handlebars&#39;s built-in helpers</a>, Panini includes a few custom helpers and you can add your own.</p>
+<h3 id="ifpage" class="docs-heading">ifpage<a class="docs-heading-icon" href="#ifpage"></a></h3><p>Displays the HTML inside the helper only on specific pages. In the below example, the HTML inside the helper will only show up on the <code>index.html</code> page.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"></span><span class="hljs-template-tag">{{#<span class="hljs-name">ifpage</span> 'index'}}</span><span class="xml">
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is definitely the Index page.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span><span class="hljs-template-tag">{{/<span class="hljs-name">ifpage</span>}}</span><span class="xml"></span></code></pre></div><p>You can also check for multiple pages. If <em>any</em> name in the list matches the current page, the HTML will appear.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"></span><span class="hljs-template-tag">{{#<span class="hljs-name">ifpage</span> 'index' 'about'}}</span><span class="xml">
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is definitely either the Index or About page.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span><span class="hljs-template-tag">{{/<span class="hljs-name">ifpage</span>}}</span><span class="xml"></span></code></pre></div><h3 id="unlesspage" class="docs-heading">unlesspage<a class="docs-heading-icon" href="#unlesspage"></a></h3><p>The opposite of <code>#ifpage</code>, <code>#unlesspage</code> will only display the HTML inside of it if the current page is <em>not</em> in the parameters.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"></span><span class="hljs-template-tag">{{#<span class="hljs-name">unlesspage</span> 'index'}}</span><span class="xml">
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is definitely <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>not<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> the Index page.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span><span class="hljs-template-tag">{{/<span class="hljs-name">unlesspage</span>}}</span><span class="xml"></span></code></pre></div><h3 id="repeat" class="docs-heading">repeat<a class="docs-heading-icon" href="#repeat"></a></h3><p>Repeats the content inside of it <code>n</code> number of times. Use this to easily print lots of duplicate HTML in a prototype.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+  </span><span class="hljs-template-tag">{{#<span class="hljs-name">repeat</span> 5}}</span><span class="xml">
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Five hundred ninety-nine US dollars<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  </span><span class="hljs-template-tag">{{/<span class="hljs-name">repeat</span>}}</span><span class="xml">
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span></code></pre></div><h3 id="markdown" class="docs-heading">markdown<a class="docs-heading-icon" href="#markdown"></a></h3><p>Converts Markdown into HTML.</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"></span><span class="hljs-template-tag">{{#<span class="hljs-name">markdown</span>}}</span><span class="xml">
+# Heading 1
+Lorem ipsum [dolor sit amet](http://html5zombo.com), consectetur adipisicing elit. Nam dolor, perferendis. Mollitia aut dolorum, est amet libero eos ad facere pariatur, ullam dolorem similique fugit, debitis impedit, eligendi officiis dolores.
+</span><span class="hljs-template-tag">{{/<span class="hljs-name">markdown</span>}}</span><span class="xml"></span></code></pre></div><h3 id="custom-helpers" class="docs-heading">Custom Helpers<a class="docs-heading-icon" href="#custom-helpers"></a></h3><p>If you don&#39;t see the right helper, you can write your own. Add a javascript file to &#39;src/helpers&#39;, restart npm, then call it in your templates.</p>
+<div class="docs-code" data-docs-code><pre><code class="html">// Example file src/helpers/bold.js
+module.exports = function(options) {
+  // options.fn(this) = Handlebars content between {{#bold}} HERE {{/bold}}
+  var bolder = '<span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>' + options.fn(this) + '<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>';
+  return bolder;
+}</code></pre></div><p>Then in your projects call your custom <code>{{#bold}}</code> helper</p>
+<div class="docs-code" data-docs-code><pre><code class="html">{{#bold}}ideas{{/bold}}</code></pre></div><hr>
+<h2 id="custom-data" class="docs-heading" data-magellan-target="custom-data">Custom Data<a class="docs-heading-icon" href="#custom-data"></a></h2><p>Custom data can be added to your pages. This data can then be inserted into your HTML through Handlebars. There are two ways to add data to a project.</p>
+<p>To add variables to a specific page only, add it at the top of the page&#39;s HTML as a <a href="http://jekyllrb.com/docs/frontmatter/">Front Matter</a> block. Let&#39;s say the below content is inside <code>src/pages/index.html</code>.</p>
+<div class="docs-code" data-docs-code><pre><code class="html">---
+title: Page Title
+description: Lorem ipsum.
+---
+
+<span class="hljs-comment">&lt;!-- The rest of your HTML is down here. --&gt;</span></code></pre></div><p>Now, you can insert the values of these variables into the <code>index.html</code> page, <em>or</em> the <code>default.html</code> layout. To insert a variable, wrap the name of the variable in double curly braces, like so:</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span></span><span class="hljs-template-variable">{{ title }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span></code></pre></div><p>Variables can also be added globally by creating an external JSON or YML file, and adding it to the <code>src/data</code> folder in your project. Let&#39;s create a file called <code>breakfast.yml</code>:</p>
+<div class="docs-code" data-docs-code><pre><code class="html">- eggs
+- bacon
+- toast</code></pre></div><p>Panini will load in the contents of this YML file as a variable called <code>{{ breakfast }}</code>. Because it&#39;s an array, we can loop through it using Handlebars&#39;s <code>{{#each}}</code> helper:</p>
+<div class="docs-code" data-docs-code><pre><code class="handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"breakfast-items"</span>&gt;</span>
+  </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> breakfast}}</span><span class="xml">
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span></span><span class="hljs-template-variable">{{ this }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span></code></pre></div><p>This code will print three <code>&lt;li&gt;</code>s, one for each item in the file.</p>
+<h2 id="tutorials" class="docs-heading" data-magellan-target="tutorials">Tutorials<a class="docs-heading-icon" href="#tutorials"></a></h2><p><a href="http://zurb.com/university/lessons/staying-d-r-y-with-panini">Staying D.R.Y. with Panini</a> 
+Panini comes with tons of Handlebars helpers built in, like a repeat helper or markdown parser, but in this lesson we’ll take a look at creating a custom month/year helper for an HTML email.</p>
+<p></p>
+
+
+
+
+
+</div>
+
+<div class="large-3 columns show-for-medium">
+  <div data-sticky-container>
+    <nav class="columns docs-toc-wrap" data-sticky data-margin-top='0' data-top-anchor="docs-header:bottom" data-btm-anchor="footer:top" data-sticky-on="large">
+      <div class="docs-toc hide" id="docsTOC">
+        <ul class="vertical menu" data-docs-toc>
+          <li class="docs-nav-title">Panini</li>
+        </ul>
+
+        <hr class="docs-toc-divider">
+
+        <ul class="docs-contribute-menu">
+          <li><a href="https://github.com/zurb/foundation-emails/edit/develop/docs/pages/panini.md" target="_blank"><i class="fi-pencil"></i>Edit this Page</a></li>
+          <li><a href="https://github.com/zurb/panini/issues" target="_blank"><i class="fi-social-github"></i>Report a Bug</a></li>
+          <li><a href="http://foundation.zurb.com/forum" target="_blank"><i class="fi-comment"></i>Get Help</a></li>
+        </ul>
+      </div>
+
+      <div class="foundation-toc-ad-unit" id="TOCAdUnit">
+      </div>
+    </nav>
+  </div>
+</div>
+
+</div>
+
+</article>
+
+        </div>
+        <div class="medium-3 large-2 medium-pull-9 large-pull-10 columns">
+          <ul class="vertical menu docs-nav" id="docs-menu">
+            <p class="docs-nav-version">
+              <span data-docs-version>v2.2.0</span>
+              <a href="https://github.com/zurb/foundation-emails/releases/" target="_blank">(Changelog)</a>
+            </p>
+          
+            <li class="docs-nav-title">Getting Started</li>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="css-guide.html">CSS Version</a></li>
+            <li><a href="sass-guide.html">Sass Version</a></li>
+            <li><a href="gem-guide.html">Ruby Gem</a></li>
+          
+            <li class="docs-nav-title">Guides</li>
+            <li><a href="sass.html">Using Sass</a></li>
+            <li><a href="inky.html">Using Inky</a></li>
+            <!-- <li><a href="styling.html">CSS with Inky</a></li> -->
+            <li><a href="media-query.html">Media Queries</a></li>
+            <li><a href="zurb-stack.html">ZURB Stack</a></li>
+            <li><a href="compatibility.html">Compatibility</a></li>
+            <!-- <li><a href="tips-tricks.html">Tips &amp; Tricks</a></li> -->
+            <li><a href="migration.html">Migrate from Ink</a></li>
+          
+            <li class="docs-nav-title">Components</li>
+            <li><a href="alignment.html">Alignment Classes</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="callout.html">Callout</a></li>
+            <li><a href="global.html">Global Styles</a></li>
+            <li><a href="grid.html">Grid</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="spacer.html">Spacer</a></li>
+            <li><a href="wrapper.html">Wrapper</a></li>
+            <!-- <li><a href="thumbnail.html">Thumbnail</a></li> -->
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="visibility.html">Visibility Classes</a></li>
+          
+            <li class="docs-nav-title">Libraries</li>
+            <li><a href="panini.html">Panini (Handlebars)</a></li>
+          
+            <li class="docs-nav-title">Older Versions</li>
+            <li><a href="http://foundation.zurb.com/emails/docs/v1.0.5/index.html">v1 (Ink)</a></li>
+          </ul>
+          
+          <a class="docs-course-callout" href="http://zurb.com/university/responsive-emails-foundation">
+            <span class="docs-course-callout-subtitle">ZURB Master Class</span>
+            <span class="docs-course-callout-title">Responsive Emails</span>
+            <p>In this online class, you’ll learn how to rapidly design and develop responsive emails that look beautiful on just about every screen, browser, and email client out there—even Outlook.</p>
+            <span class="button">View Class</span>
+          </a>
+          
+        </div>
+      </div>
+
+      <div class="docs-newsletter">
+        <div class="row">
+          <div class="medium-8 columns">
+            <h5>Stay on top of what&rsquo;s happening in <a href="http://zurb.com/responsive">responsive design</a>.</h5>
+            <p>Sign up to receive monthly Responsive Reading highlights. <a href="http://createsend.com/t/y-2767327772FDE37F">Read Last Month's Edition &raquo;</a></p>
+          </div>
+          <div class="medium-4 columns">
+            <form action="http://zurb.createsend.com/t/y/s/vjtyhh/" method="post" id="subForm">
+              <div class="row collapse margintop-20px">
+                <div class="small-8 medium-8 columns">
+                  <input id="fieldEmail" name="cm-vjtyhh-vjtyhh" type="email" placeholder="signup@example.com">
+                </div>
+                <div class="small-4 medium-4 columns">
+                  <input type="submit" href="#" class="postfix button" value="Sign Up">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-top bg-fblue">
+        <div class="row property">
+          <div class="medium-4 columns">
+            <div class="property-info">
+              <h3>Foundation for Emails</h3>
+              <p>Foundation for Emails is a framework for responsive HTML emails created by <a href="http://zurb.com">ZURB</a>, a product design company in Campbell, CA. This framework is the result of building web products &amp; services since 1998.
+              </p>
+            </div>
+          </div>
+      
+          <div class="medium-8 columns">
+            <div class="row collapse">
+              <div class="medium-4 columns">
+                <div class="learn-links">
+                  <h4 class="hide-for-small">Want more?</h4>
+                  <ul>
+                    <li><a href="http://foundation.zurb.com/sites">Foundation for Sites</a></li>
+                    <li><a href="http://foundation.zurb.com/apps">Foundation for Apps</a></li>
+                    <li><a href="http://zurb.com/notable">Notable Design Apps</a></li>
+                    <li><a href="http://zurb.com/university/courses">Training</a></li>
+                    <li><a href="http://zurb.com/library">Design Resources</a></li>
+                  </ul>
+                </div>
+              </div>
+                <div class="medium-4 columns">
+                  <div class="support-links">
+                  <h4 class="hide-for-small">Talk to us</h4>
+                  <p>Tweet us at <br> <a href="https://twitter.com/zurbfoundation">@ZURBfoundation</a></p>
+                  <p><a href="http://foundation.zurb.com/business/business-support.html">Business Support</a></p>
+                  <p>Or check our <a href="http://foundation.zurb.com/support/support.html">support page</a></p>
+                  </div>
+                </div>
+              <div class="medium-4 columns">
+                <div class="connect-links">
+                  <h4 class="hide-for-small">Stay Updated</h4>
+                  <p>Keep up with the latest on Foundation. Find us on <a href="https://github.com/zurb/foundation">Github</a>.</p>
+                  <a href="http://zurb.com/news" class="small button">Stay Connected</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row global">
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/studios" class="footer-link-block services">
+              <span class="title">Studios</span>
+              <span>Helping more than 200 startups succeed since 1998.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://foundation.zurb.com/" class="footer-link-block foundation">
+              <span class="title">Foundation</span>
+              <span>The most advanced front-end framework in the world.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/notable" class="footer-link-block apps">
+              <span class="title">Notable Design Apps</span>
+              <span>Prototype, iterate and collect feedback on your products.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/university" class="footer-link-block expo">
+              <span class="title">University</span>
+              <span>Ideas, thoughts and design resources shared with you.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-bottom">
+        <div class="row">
+          <div class="medium-4 medium-push-8 columns">
+            <ul class="home-social">
+                <li><a href="http://www.youtube.com/ZURB" class="youtube"></a></li>
+                <li><a href="http://www.twitter.com/ZURB" class="twitter"></a></li>
+                <li><a href="http://www.facebook.com/ZURB" class="facebook"></a></li>
+                <li><a href="http://zurb.com/contact" class="mail"></a></li>
+              </ul>
+           </div>
+           <div class="medium-8 medium-pull-4 columns">
+              <a href="http://www.zurb.com" class="zurb-logo regular"></a>
+              <ul class="zurb-links">
+                <li><a href="http://zurb.com/about">About</a></li>
+                <li><a href="http://zurb.com/blog">Blog</a></li>
+                <li><a href="http://zurb.com/news">News<span class="show-for-medium-up"> &amp; Events</span></a></li>
+                <li><a href="http://zurb.com/contact">Contact</a></li>
+                <li><a href="http://zurb.com/sitemap">Sitemap</a></li>
+             </ul>
+             <p class="copyright">&copy; 1998&dash;2015 ZURB, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    </div></div>
+
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(
+        ['_setAccount', 'UA-2195009-2'],
+        ['_trackPageview'],
+        ['b._setAccount', 'UA-2195009-27'],
+        ['c._setAccount', 'UA-2195009-47'],
+        ['b._trackPageview']
+      );
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/what-input/1.2.3/what-input.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.9/clipboard.min.js"></script>
+    <script src="assets/js/docs.js"></script>
+  </body>
+</html>

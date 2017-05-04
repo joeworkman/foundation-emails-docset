@@ -1,0 +1,850 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Typography in Foundation for Emails is meant to make your life easier by providing clean, attractive, simple default styles for all of the most basic typographical elements.">
+    <link rel="icon" href="assets/img/icons/favicon.ico" type="image/x-icon">
+    <title>Foundation for Emails 2 Docs | Typography</title>
+    <link href="assets/css/docs.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css" /> -->
+  </head>
+  <body class="docs-emails">
+
+    <div class="off-canvas-wrapper"><div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="mobile-ofc vertical menu">
+          
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li> 
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>  
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/sort/unanswered">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://zurb.com/ink/docs.php" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      </div>
+      
+      <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Emails</a></li>
+        </ul>
+      </div>
+      
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <!-- Info Banner For Announcements or Links -->
+      <!-- <a href="http://zurb.com/article/1416/foundation-6-is-here" id="notice">
+        <div class="info">
+          <h5>Foundation 6 is here!</h5>
+        </div>
+      </a> -->
+
+      <nav class="marketing-topbar show-for-medium">
+      
+        <ul class="menu">
+          <li class="topbar-title"><a href="http://foundation.zurb.com/index.html"><img src="http://foundation.zurb.com/assets/img/zurb-logo.svg" alt="ZURB"> Foundation</a></li>
+        </ul>
+      
+        <ul class="dropdown menu" data-dropdown-menu data-click-open="false">
+      
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li>
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://foundation.zurb.com/emails/docs" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/emails/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      
+      </nav>
+      
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+          <span class="title-bar-title">Foundation</span>
+        </div>
+      </div>
+      
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="mobile-ofc vertical menu">
+          
+          <li>
+            <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li> 
+              <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>  
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li class="title">Frameworks</li>
+              <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider"></li>
+              <li class="title">Develop</li>
+              <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+              <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li><a href="http://foundation.zurb.com/forum/sort/unanswered">Foundation Forum</a></li>
+              <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li><a href="http://zurb.com/ink/docs.php" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      </div>
+      
+      <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+      </div>
+      
+
+      <input type="text" class="docs-search" data-docs-search placeholder="Find a page, component, variable, mixin, function...">
+
+      <div class="expanded row">
+        <div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+<!-- body include must be left aligned for proper indentation of docs code examples -->
+
+<article class="docs-component" id="docs-typography">
+
+<!--<a href="#docs-menu" class="small secondary button expanded hide-for-medium mobile-nav-button">Jump to Nav</a>-->
+
+<!--
+<header>
+  <h1 class="docs-page-title">Typography</h1>
+
+
+  <p class="lead docs-page-lead">Typography in Foundation for Emails is meant to make your life easier by providing clean, attractive, simple default styles for all of the most basic typographical elements.</p>
+
+  <ul class="menu simple docs-contribute-menu">
+    <li><a href="https://github.com/zurb/foundation-emails/edit/develop/docs/pages/typography.md" target="_blank"><i class="fi-pencil"></i>Edit this Page</a></li>
+    <li><a href="https://github.com/zurb/foundation-emails/issues/new?title=%5BTypography%5D%20ISSUE%20NAME%20HERE" target="_blank"><i class="fi-social-github"></i>Report a Bug</a></li>
+    <li><a href="http://foundation.zurb.com/forum" target="_blank"><i class="fi-comment"></i>Get Help</a></li>
+  </ul>
+</header>
+-->
+
+
+<div class="row">
+
+<div class="large-9 columns docs-component-inner" id="docs">
+
+<h2 id="paragraphs" class="docs-heading" data-magellan-target="paragraphs">Paragraphs<a class="docs-heading-icon" href="#paragraphs"></a></h2><p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content—so, did you know that female Giant Squids on average are around twice the size of (and around 10 feet longer than) their potential mates? Pretty cool. Use the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> tags to denote text that should be displayed or read with emphasis. Browsers will <strong>bold</strong> and <em>italicize</em> them, while screen readers will read the words with <em>emphasis</em>.</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content—so, did you know that female Giant Squids on average are around twice the size of (and around 10 feet longer than) their potential mates? Pretty cool. Use the `<span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>` and `<span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>` tags to denote text that should be displayed or read with emphasis. Browsers will <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>bold<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>italicize<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> them, while screen readers will read the words with <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>emphasis<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span>.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div><hr>
+<h2 id="header" class="docs-heading" data-magellan-target="header">Header<a class="docs-heading-icon" href="#header"></a></h2><p>Foundation includes styles for all headings.</p>
+<div class="docs-code-wrapper"><span class="docs-code-language" data-docs-code-current>HTML</span><button class="docs-code-toggle" type="button" data-docs-code-toggle>Switch to Inky</button><div class="docs-code docs-code-inky" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>h1. This is a very large header.<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>h2. This is a large header.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>h3. This is a medium header.<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>h4. This is a moderate header.<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>h5. This is a small header.<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>h6. This is a tiny header.<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span></code></pre></div><div class="docs-code docs-code-html" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>h1. This is a very large header.<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>h2. This is a large header.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>h3. This is a medium header.<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>h4. This is a moderate header.<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>h5. This is a small header.<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>h6. This is a tiny header.<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span></code></pre></div></div><p class="docs-code-language">DEMO</p><iframe class="docs-code-iframe" src="examples/example-33.html"></iframe><hr>
+<h3 id="header-sizes" class="docs-heading">Header Sizes<a class="docs-heading-icon" href="#header-sizes"></a></h3><p>The framework includes two typographic scales&mdash;one uses a narrow range of sizes for small- and medium-sized screens, and the other uses a wider range of sizes for large-sized screens. You can change these scales, or add new ones for other breakpoints, by editing the <code>$hx-font-size</code> variables in your project&#39;s <a href="sass.html#the-settings-file">Settings File</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;h1&gt;</code></td>
+<td>34px</td>
+<td></td>
+</tr>
+<tr>
+<td><code>&lt;h2&gt;</code></td>
+<td>30px</td>
+<td></td>
+</tr>
+<tr>
+<td><code>&lt;h3&gt;</code></td>
+<td>28px</td>
+<td></td>
+</tr>
+<tr>
+<td><code>&lt;h4&gt;</code></td>
+<td>24px</td>
+<td></td>
+</tr>
+<tr>
+<td><code>&lt;h5&gt;</code></td>
+<td>20px</td>
+<td></td>
+</tr>
+<tr>
+<td><code>&lt;h6&gt;</code></td>
+<td>18px</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="small-header-segments" class="docs-heading" data-magellan-target="small-header-segments">Small Header Segments<a class="docs-heading-icon" href="#small-header-segments"></a></h2><p>By inserting a <code>&lt;small&gt;</code> element into a header Foundation will scale the header font size down for an inline element, allowing you to use this for subtitles or other secondary header text.</p>
+<div class="docs-code-wrapper"><span class="docs-code-language" data-docs-code-current>HTML</span><button class="docs-code-toggle" type="button" data-docs-code-toggle>Switch to Inky</button><div class="docs-code docs-code-inky" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Foundation for Emails <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>Version 2<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span></code></pre></div><div class="docs-code docs-code-html" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Foundation for Emails <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>Version 2<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span></code></pre></div></div><p class="docs-code-language">DEMO</p><iframe class="docs-code-iframe" src="examples/example-34.html"></iframe><hr>
+<h2 id="links" class="docs-heading" data-magellan-target="links">Links<a class="docs-heading-icon" href="#links"></a></h2><p>Links are very standard, and the color is preset to the Foundation primary color. <a href="global.html">Learn more about Foundation&#39;s global colors</a>.</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Links are very standard, and the color is preset to the Foundation primary color. <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"global.html"</span>&gt;</span>Learn more about Foundation's global colors.<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div><hr>
+<h2 id="dividers" class="docs-heading" data-magellan-target="dividers">Dividers<a class="docs-heading-icon" href="#dividers"></a></h2><p>Use dividers to define thematic breaks between paragraphs or sections of your email.</p>
+<div class="docs-code" data-docs-code><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">hr</span>/&gt;</span></code></pre></div>
+
+<hr>
+<section>
+  <h2 id="sass-reference" class="docs-heading" data-magellan-target="sass-reference">Sass Reference<a class="docs-heading-icon" href="#sass-reference"></a></h2>
+
+  <section>
+    <h3 id="sass-variables" class="docs-heading">Variables<a class="docs-heading-icon" href="#sass-variables"></a></h3>
+
+    <p>The default styles of this component can be customized using these Sass variables in your project's <a href="sass.html#the-settings-file">settings file</a>.</p>
+
+    <table class="docs-variable-table">
+      <thead>
+        <tr><th>Name</th><th>Type</th><th>Default Value</th><th>Description</th></tr>
+      </thead>
+      <tr>
+        <td class="name"><code>$global-font-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$black</code></td>
+        <td><p>Global font color.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$body-font-family</code></td>
+        <td>Font</td>
+        <td class="font"><code>Helvetica, Arial, sans-serif</code></td>
+        <td><p>Global font family.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$global-font-weight</code></td>
+        <td>Keyword</td>
+        <td class="keyword"><code>normal</code></td>
+        <td><p>Global font weight.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$header-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>inherit</code></td>
+        <td><p>Header color</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$global-line-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.3</code></td>
+        <td><p>Global line height.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$global-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>16px</code></td>
+        <td><p>Font size of body text.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$body-line-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-line-height</code></td>
+        <td><p>Line height of body text.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$header-font-family</code></td>
+        <td>List</td>
+        <td class="list"><code>$body-font-family</code></td>
+        <td><p>Font family of headings.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$header-font-weight</code></td>
+        <td>List</td>
+        <td class="list"><code>$global-font-weight</code></td>
+        <td><p>Font family of headings.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h1-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>34px</code></td>
+        <td><p>Font size of <code>&lt;h1&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h2-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>30px</code></td>
+        <td><p>Font size of <code>&lt;h2&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h3-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>28px</code></td>
+        <td><p>Font size of <code>&lt;h3&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h4-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>24px</code></td>
+        <td><p>Font size of <code>&lt;h4&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h5-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>20px</code></td>
+        <td><p>Font size of <code>&lt;h5&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$h6-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>18px</code></td>
+        <td><p>Font size of <code>&lt;h6&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$header-margin-bottom</code></td>
+        <td>Number</td>
+        <td class="number"><code>10px</code></td>
+        <td><p>Margin bottom of <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$paragraph-margin-bottom</code></td>
+        <td>Number</td>
+        <td class="number"><code>10px</code></td>
+        <td><p>Margin bottom of paragraphs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$small-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>80%</code></td>
+        <td><p>Default font size for <code>&lt;small&gt;</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$small-font-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$medium-gray</code></td>
+        <td><p>Color of <code>&lt;small&gt;</code> elements when placed inside headers.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$lead-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-font-size * 1.25</code></td>
+        <td><p>Font size of lead paragraphs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$lead-line-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.6</code></td>
+        <td><p>Line height of lead paragraphs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$text-padding</code></td>
+        <td>Number</td>
+        <td class="number"><code>10px</code></td>
+        <td><p>Padding inside paragraphs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$subheader-lineheight</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.4</code></td>
+        <td><p>Default line height for subheaders.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$subheader-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$dark-gray</code></td>
+        <td><p>Default font color for subheaders.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$subheader-font-weight</code></td>
+        <td>String</td>
+        <td class="string"><code>$global-font-weight</code></td>
+        <td><p>Default font weight for subheaders.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$subheader-margin-top</code></td>
+        <td>Number</td>
+        <td class="number"><code>4px</code></td>
+        <td><p>Default top margin for subhheaders.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$subheader-margin-bottom</code></td>
+        <td>Number</td>
+        <td class="number"><code>8px</code></td>
+        <td><p>Default bottom margin for subheaders.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$hr-width</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-width</code></td>
+        <td><p>Maximum width of a divider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$hr-border</code></td>
+        <td>List</td>
+        <td class="list"><code>1px solid $black</code></td>
+        <td><p>Default border for a divider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$hr-margin</code></td>
+        <td>Number or  List</td>
+        <td class="number | list"><code>20px auto</code></td>
+        <td><p>Default margin for a divider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$anchor-text-decoration</code></td>
+        <td>Keyword</td>
+        <td class="keyword"><code>none</code></td>
+        <td><p>Text decoration for anchors.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$anchor-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$primary-color</code></td>
+        <td><p>Text color of anchors.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$anchor-color-visited</code></td>
+        <td>Color</td>
+        <td class="color"><code>$anchor-color</code></td>
+        <td><p>Text color of anchors to visited links.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$anchor-color-hover</code></td>
+        <td>Color</td>
+        <td class="color"><code>darken($primary-color, 10%)</code></td>
+        <td><p>Text color of anchors on hover.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$anchor-color-active</code></td>
+        <td>Color</td>
+        <td class="color"><code>$anchor-color-hover</code></td>
+        <td><p>Text color of active anchors.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$stat-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>40px</code></td>
+        <td><p>Default font size for statistic numbers.</p>
+</td>
+      </tr>
+    </table>
+  </section>
+
+
+
+</section>
+
+
+<!-- <hr> -->
+<!-- <section class="docs-building-blocks">
+  <h2 id="building-blocks" class="docs-heading" data-magellan-target="building-blocks">Building Blocks<a class="docs-heading-icon" href="#building-blocks"></a></h2>
+
+  <p><a href="http://zurb.com/building-blocks">Building Blocks</a> is a ZURB-curated resource with useful code snippets that use Foundation components. Here are a few for this component:</p>
+
+  <div class="warning callout">
+    <p>These are placeholder items. If you have ideas for building blocks for this component, <a href="https://github.com/zurb/foundation-sites-6/issues/118">we're taking ideas on GitHub</a>.</p>
+  </div>
+
+  <div data-building-blocks></div>
+</section> -->
+
+</div>
+
+<div class="large-3 columns show-for-medium">
+  <div data-sticky-container>
+    <nav class="columns docs-toc-wrap" data-sticky data-margin-top='0' data-top-anchor="docs-header:bottom" data-btm-anchor="footer:top" data-sticky-on="large">
+      <div class="docs-toc hide" id="docsTOC">
+        <ul class="vertical menu" data-docs-toc>
+          <li class="docs-nav-title">Typography</li>
+        </ul>
+
+        <hr class="docs-toc-divider">
+
+        <ul class="docs-contribute-menu">
+          <li><a href="https://github.com/zurb/foundation-emails/edit/develop/docs/pages/typography.md" target="_blank"><i class="fi-pencil"></i>Edit this Page</a></li>
+          <li><a href="https://github.com/zurb/foundation-emails/issues/new?title=%5BTypography%5D%20ISSUE%20NAME%20HERE" target="_blank"><i class="fi-social-github"></i>Report a Bug</a></li>
+          <li><a href="http://foundation.zurb.com/forum" target="_blank"><i class="fi-comment"></i>Get Help</a></li>
+        </ul>
+      </div>
+
+      <div class="foundation-toc-ad-unit" id="TOCAdUnit">
+      </div>
+    </nav>
+  </div>
+</div>
+
+</div>
+
+</article>
+
+        </div>
+        <div class="medium-3 large-2 medium-pull-9 large-pull-10 columns">
+          <ul class="vertical menu docs-nav" id="docs-menu">
+            <p class="docs-nav-version">
+              <span data-docs-version>v2.2.0</span>
+              <a href="https://github.com/zurb/foundation-emails/releases/" target="_blank">(Changelog)</a>
+            </p>
+          
+            <li class="docs-nav-title">Getting Started</li>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="css-guide.html">CSS Version</a></li>
+            <li><a href="sass-guide.html">Sass Version</a></li>
+            <li><a href="gem-guide.html">Ruby Gem</a></li>
+          
+            <li class="docs-nav-title">Guides</li>
+            <li><a href="sass.html">Using Sass</a></li>
+            <li><a href="inky.html">Using Inky</a></li>
+            <!-- <li><a href="styling.html">CSS with Inky</a></li> -->
+            <li><a href="media-query.html">Media Queries</a></li>
+            <li><a href="zurb-stack.html">ZURB Stack</a></li>
+            <li><a href="compatibility.html">Compatibility</a></li>
+            <!-- <li><a href="tips-tricks.html">Tips &amp; Tricks</a></li> -->
+            <li><a href="migration.html">Migrate from Ink</a></li>
+          
+            <li class="docs-nav-title">Components</li>
+            <li><a href="alignment.html">Alignment Classes</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="callout.html">Callout</a></li>
+            <li><a href="global.html">Global Styles</a></li>
+            <li><a href="grid.html">Grid</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="spacer.html">Spacer</a></li>
+            <li><a href="wrapper.html">Wrapper</a></li>
+            <!-- <li><a href="thumbnail.html">Thumbnail</a></li> -->
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="visibility.html">Visibility Classes</a></li>
+          
+            <li class="docs-nav-title">Libraries</li>
+            <li><a href="panini.html">Panini (Handlebars)</a></li>
+          
+            <li class="docs-nav-title">Older Versions</li>
+            <li><a href="http://foundation.zurb.com/emails/docs/v1.0.5/index.html">v1 (Ink)</a></li>
+          </ul>
+          
+          <a class="docs-course-callout" href="http://zurb.com/university/responsive-emails-foundation">
+            <span class="docs-course-callout-subtitle">ZURB Master Class</span>
+            <span class="docs-course-callout-title">Responsive Emails</span>
+            <p>In this online class, you’ll learn how to rapidly design and develop responsive emails that look beautiful on just about every screen, browser, and email client out there—even Outlook.</p>
+            <span class="button">View Class</span>
+          </a>
+          
+        </div>
+      </div>
+
+      <div class="docs-newsletter">
+        <div class="row">
+          <div class="medium-8 columns">
+            <h5>Stay on top of what&rsquo;s happening in <a href="http://zurb.com/responsive">responsive design</a>.</h5>
+            <p>Sign up to receive monthly Responsive Reading highlights. <a href="http://createsend.com/t/y-2767327772FDE37F">Read Last Month's Edition &raquo;</a></p>
+          </div>
+          <div class="medium-4 columns">
+            <form action="http://zurb.createsend.com/t/y/s/vjtyhh/" method="post" id="subForm">
+              <div class="row collapse margintop-20px">
+                <div class="small-8 medium-8 columns">
+                  <input id="fieldEmail" name="cm-vjtyhh-vjtyhh" type="email" placeholder="signup@example.com">
+                </div>
+                <div class="small-4 medium-4 columns">
+                  <input type="submit" href="#" class="postfix button" value="Sign Up">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-top bg-fblue">
+        <div class="row property">
+          <div class="medium-4 columns">
+            <div class="property-info">
+              <h3>Foundation for Emails</h3>
+              <p>Foundation for Emails is a framework for responsive HTML emails created by <a href="http://zurb.com">ZURB</a>, a product design company in Campbell, CA. This framework is the result of building web products &amp; services since 1998.
+              </p>
+            </div>
+          </div>
+      
+          <div class="medium-8 columns">
+            <div class="row collapse">
+              <div class="medium-4 columns">
+                <div class="learn-links">
+                  <h4 class="hide-for-small">Want more?</h4>
+                  <ul>
+                    <li><a href="http://foundation.zurb.com/sites">Foundation for Sites</a></li>
+                    <li><a href="http://foundation.zurb.com/apps">Foundation for Apps</a></li>
+                    <li><a href="http://zurb.com/notable">Notable Design Apps</a></li>
+                    <li><a href="http://zurb.com/university/courses">Training</a></li>
+                    <li><a href="http://zurb.com/library">Design Resources</a></li>
+                  </ul>
+                </div>
+              </div>
+                <div class="medium-4 columns">
+                  <div class="support-links">
+                  <h4 class="hide-for-small">Talk to us</h4>
+                  <p>Tweet us at <br> <a href="https://twitter.com/zurbfoundation">@ZURBfoundation</a></p>
+                  <p><a href="http://foundation.zurb.com/business/business-support.html">Business Support</a></p>
+                  <p>Or check our <a href="http://foundation.zurb.com/support/support.html">support page</a></p>
+                  </div>
+                </div>
+              <div class="medium-4 columns">
+                <div class="connect-links">
+                  <h4 class="hide-for-small">Stay Updated</h4>
+                  <p>Keep up with the latest on Foundation. Find us on <a href="https://github.com/zurb/foundation">Github</a>.</p>
+                  <a href="http://zurb.com/news" class="small button">Stay Connected</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row global">
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/studios" class="footer-link-block services">
+              <span class="title">Studios</span>
+              <span>Helping more than 200 startups succeed since 1998.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://foundation.zurb.com/" class="footer-link-block foundation">
+              <span class="title">Foundation</span>
+              <span>The most advanced front-end framework in the world.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/notable" class="footer-link-block apps">
+              <span class="title">Notable Design Apps</span>
+              <span>Prototype, iterate and collect feedback on your products.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/university" class="footer-link-block expo">
+              <span class="title">University</span>
+              <span>Ideas, thoughts and design resources shared with you.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-bottom">
+        <div class="row">
+          <div class="medium-4 medium-push-8 columns">
+            <ul class="home-social">
+                <li><a href="http://www.youtube.com/ZURB" class="youtube"></a></li>
+                <li><a href="http://www.twitter.com/ZURB" class="twitter"></a></li>
+                <li><a href="http://www.facebook.com/ZURB" class="facebook"></a></li>
+                <li><a href="http://zurb.com/contact" class="mail"></a></li>
+              </ul>
+           </div>
+           <div class="medium-8 medium-pull-4 columns">
+              <a href="http://www.zurb.com" class="zurb-logo regular"></a>
+              <ul class="zurb-links">
+                <li><a href="http://zurb.com/about">About</a></li>
+                <li><a href="http://zurb.com/blog">Blog</a></li>
+                <li><a href="http://zurb.com/news">News<span class="show-for-medium-up"> &amp; Events</span></a></li>
+                <li><a href="http://zurb.com/contact">Contact</a></li>
+                <li><a href="http://zurb.com/sitemap">Sitemap</a></li>
+             </ul>
+             <p class="copyright">&copy; 1998&dash;2015 ZURB, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    </div></div>
+
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(
+        ['_setAccount', 'UA-2195009-2'],
+        ['_trackPageview'],
+        ['b._setAccount', 'UA-2195009-27'],
+        ['c._setAccount', 'UA-2195009-47'],
+        ['b._trackPageview']
+      );
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/what-input/1.2.3/what-input.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.9/clipboard.min.js"></script>
+    <script src="assets/js/docs.js"></script>
+  </body>
+</html>
