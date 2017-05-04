@@ -3,19 +3,21 @@
 require "fileutils"
 require "json"
 
-dashdir = "../Dash-User-Contributions/docsets/FoundationEmail"
+load "build.rb"
+
+dashdir = "../Dash-User-Contributions/docsets/FoundationEmails"
 docset  = JSON.parse(File.read("docset.json"))
-archive = "FoundationEmail.tgz"
+archive = "FoundationEmails.tgz"
 
 files = [
-	"FoundationEmail.docset/icon.png",
-	"FoundationEmail.docset/icon@2x.png",
+	"FoundationEmails.docset/icon.png",
+	"FoundationEmails.docset/icon@2x.png",
 	"README.md",
 	"docset.json",
 	archive
 ]
 
-system "tar --exclude='.DS_Store' -cvzf FoundationEmail.tgz FoundationEmail.docset"
+system "tar --exclude='.DS_Store' -cvzf FoundationEmails.tgz FoundationEmails.docset"
 
 FileUtils.mkdir_p dashdir unless File.exists?(dashdir)
 

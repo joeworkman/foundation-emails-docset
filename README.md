@@ -1,3 +1,3 @@
-# Foundation for Email docset for Dash.app
+# Foundation for Emails docset for Dash.app
 
-This is a docset generated for [Foundation for Email](http://foundation.zurb.com/emails/docs/) for [Dash.app](https://kapeli.com/dash)
+This is a docset generated for [Foundation for Emails](http://foundation.zurb.com/emails/docs/) for [Dash.app](https://kapeli.com/dash)

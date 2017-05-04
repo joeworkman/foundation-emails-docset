@@ -4,8 +4,8 @@ require "fileutils"
 require "sqlite3"
 require "json"
 
-docdir  = "FoundationEmail.docset/Contents/Resources/Documents"
-dbfile  = "FoundationEmail.docset/Contents/Resources/docSet.dsidx"
+docdir  = "FoundationEmails.docset/Contents/Resources/Documents"
+dbfile  = "FoundationEmails.docset/Contents/Resources/docSet.dsidx"
 newdocs = "../foundation-emails/_build"
 
 # Nuke the existing database & docs

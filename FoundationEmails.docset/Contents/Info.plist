@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>foundation.email</string>
+	<string>foundation.emails</string>
 	<key>CFBundleName</key>
-	<string>Foundation Email</string>
+	<string>Foundation for Emails</string>
 	<key>DashDocSetFallbackURL</key>
 	<string>http://foundation.zurb.com/emails/docs/</string>
 	<key>DocSetPlatformFamily</key>
